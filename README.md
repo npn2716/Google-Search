@@ -4,7 +4,7 @@ Get data from Google Search results.
 
 Output data is: 
 
-- **n** .html file in ``html\keyword.html`` (fix UTF-8 encoding and replace html entities)
+- **n** .html file in ``html\keyword.html`` (fixed UTF-8 encoding and replaced html entities)
 
 - **n** .csv file in ``csv\keyword.html``
 
