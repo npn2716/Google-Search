@@ -24,7 +24,7 @@ Integrating Environment: **Python 3.x**
 
 ## Library (Module) Requirements
 
-`codecs`, `request`, `ftfy`, `w3lib`, `csv`, `pandas`, `pyparsing`
+`os`, `codecs`, `request`, `ftfy`, `w3lib`, `csv`, `pandas`, `pyparsing`
 
 ### Installation
 

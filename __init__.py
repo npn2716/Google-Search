@@ -1,3 +1,4 @@
+import os
 import codecs
 import requests
 import ftfy
@@ -18,6 +19,9 @@ def searchByArgs(*args):
 
 #Search keyword on Google and write to a new html file. UTF-8 Encoding and replace HTML entities =====
 def search(keyword: str):
+    if not os.path.exists('html'):
+        os.makedirs('html')
+
     keyword = keyword.replace(' ', '+')
     url = 'https://www.google.com/search?q=' + keyword
     htmlOutputName = 'html\\' + keyword + '.html'
@@ -67,6 +71,9 @@ def html_processor(htmlFileName: str):
         data["WebDir"].append(class2)
     
     #Write to a new CSV file: -----------------------------------------------------------
+    if not os.path.exists('csv'):
+        os.makedirs('csv')
+
     df = pd.DataFrame(data)
     df.to_csv(htmlFileName.replace('html\\', 'csv\\').replace('.html', '.csv'), index=False)
     print(htmlFileName.replace('html\\', 'csv\\').replace('.html', '.csv') + ' was created successfully!')
