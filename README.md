@@ -34,6 +34,27 @@ $ pip install module_name
 
 ## Demo
 
+Modify the `keywordList` in `main()` function
+
+```python
+def main():
+    ...
+    keywordList = [
+        'python', 
+        'hóa dược', 
+        'công nghệ thông tin', 
+        'bill gates', 
+        'shopee', 
+        '2022', 
+        '3d', 
+        'đồ họa máy tính', 
+        'timpani'
+        ]
+    ...
+```
+
+Run the application
+
 ```console
 $ python __init__.py
 ```
