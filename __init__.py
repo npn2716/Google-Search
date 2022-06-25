@@ -5,7 +5,6 @@ import w3lib.html
 import csv
 import pandas as pd
 from pyparsing import replace_html_entity
-from logging import exception
 
 #Search with every element in a list =================================================================
 def searchByList(keywordList: list):

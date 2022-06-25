@@ -4,11 +4,29 @@ Get data from Google Search results.
 
 Output data is **n** refined .html file and **n** .csv file.
 
+## Table of Contents
+- [Google Search](#google-search)
+  - [Table of Contents](#table-of-contents)
+  - [Environment](#environment)
+  - [Library (Module) Requirements](#library-module-requirements)
+    - [Installation](#installation)
+  - [Demo](#demo)
+
 ## Environment
 
 Operating System: **Windows**, **MacOS**, **Linux**
 
 Integrating Environment: **Python 3.x**
+
+## Library (Module) Requirements
+
+`codecs`, `request`, `ftfy`, `w3lib`, `csv`, `pandas`, `pyparsing`
+
+### Installation
+
+```console
+$ pip install module_name
+```
 
 ## Demo
 
