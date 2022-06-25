@@ -2,7 +2,11 @@
 
 Get data from Google Search results. 
 
-Output data is **n** refined .html file and **n** .csv file.
+Output data is: 
+
+- **n** .html file in ``html\keyword.html`` (fix UTF-8 encoding and replace html entities)
+
+- **n** .csv file in ``csv\keyword.html``
 
 ## Table of Contents
 - [Google Search](#google-search)
