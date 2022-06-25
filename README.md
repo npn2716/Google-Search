@@ -12,8 +12,11 @@ Integrating Environment: **Python 3.x**
 
 ## Demo
 
-```shell
+```console
 $ python __init__.py
+```
+
+```
 python.html was created successfully!
 python.html was read successfully!
 python.html was created successfully!
