@@ -37,31 +37,31 @@ $ python __init__.py
 ```
 python.html was created successfully!
 python.html was read successfully!
-python.html was created successfully!
+python.csv was created successfully!
 hóa+dược.html was created successfully!
 hóa+dược.html was read successfully!
-hóa+dược.html was created successfully!
+hóa+dược.csv was created successfully!
 công+nghệ+thông+tin.html was created successfully!
 công+nghệ+thông+tin.html was read successfully!
-công+nghệ+thông+tin.html was created successfully!
+công+nghệ+thông+tin.csv was created successfully!
 bill+gates.html was created successfully!
 bill+gates.html was read successfully!
-bill+gates.html was created successfully!
+bill+gates.csv was created successfully!
 shopee.html was created successfully!
 shopee.html was read successfully!
-shopee.html was created successfully!
+shopee.csv was created successfully!
 2022.html was created successfully!
 2022.html was read successfully!
-2022.html was created successfully!
+2022.csv was created successfully!
 3d.html was created successfully!
 3d.html was read successfully!
-3d.html was created successfully!
+3d.csv was created successfully!
 đồ+họa+máy+tính.html was created successfully!
 đồ+họa+máy+tính.html was read successfully!
-đồ+họa+máy+tính.html was created successfully!
+đồ+họa+máy+tính.csv was created successfully!
 timpani.html was created successfully!
 timpani.html was read successfully!
-timpani.html was created successfully!
+timpani.csv was created successfully!
 
 ===== Google results for: python =====
                                             WebTitle          WebDomain                                             WebDir

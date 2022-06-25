@@ -69,7 +69,7 @@ def html_processor(htmlFileName: str):
     #Write to a new CSV file: -----------------------------------------------------------
     df = pd.DataFrame(data)
     df.to_csv(htmlFileName.replace('.html', '.csv'), index=False)
-    print(htmlFileName + ' was created successfully!')
+    print(htmlFileName.replace('.html', '.csv') + ' was created successfully!')
 
 def main():
     #TYPE KEYWORDS TO SEARCH ON GOOGLE!
