@@ -20,7 +20,7 @@ def searchByArgs(*args):
 def search(keyword: str):
     keyword = keyword.replace(' ', '+')
     url = 'https://www.google.com/search?q=' + keyword
-    htmlOutputName = keyword + '.html'
+    htmlOutputName = 'html\\' + keyword + '.html'
 
     req = requests.get(url, 'html.parser')
 
@@ -29,7 +29,7 @@ def search(keyword: str):
         f.write(htmlOutputContent)
         print(htmlOutputName + ' was created successfully!')
     
-    html_processor(keyword + '.html')
+    html_processor(htmlOutputName)
 
 #Process the html file and write to a new CSV file ===================================================
 def html_processor(htmlFileName: str):
@@ -68,8 +68,8 @@ def html_processor(htmlFileName: str):
     
     #Write to a new CSV file: -----------------------------------------------------------
     df = pd.DataFrame(data)
-    df.to_csv(htmlFileName.replace('.html', '.csv'), index=False)
-    print(htmlFileName.replace('.html', '.csv') + ' was created successfully!')
+    df.to_csv(htmlFileName.replace('html\\', 'csv\\').replace('.html', '.csv'), index=False)
+    print(htmlFileName.replace('html\\', 'csv\\').replace('.html', '.csv') + ' was created successfully!')
 
 def main():
     #TYPE KEYWORDS TO SEARCH ON GOOGLE!
@@ -90,7 +90,7 @@ def main():
     
     #Read from CSV file
     for keyword in keywordList:
-        df = pd.read_csv(keyword.replace(' ','+') + '.csv')
+        df = pd.read_csv('csv\\' + keyword.replace(' ','+') + '.csv')
         print('\n===== Google results for: {} ====='.format(keyword))
         print(df)
         print()
