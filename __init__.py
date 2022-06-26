@@ -89,8 +89,7 @@ def main():
         '2022', 
         '3d', 
         'đồ họa máy tính', 
-        'timpani',
-        'bbmbj',
+        'timpani'
         ]
 
     #Do the processing
