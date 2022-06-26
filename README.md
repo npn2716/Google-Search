@@ -1,22 +1,25 @@
 # Google Search
 
-Get data from Google Search results. 
+Get data from **Google Search** results. 
+
+## Features
 
 Output data is: 
 
-- **n** .html file in ``html\keyword.html`` (fixed UTF-8 encoding and replaced html entities)
+- **n** .html file in ``html\keyword.html`` (fixed UTF-8 encoding and replaced html entities).
 
-- **n** .csv file in ``csv\keyword.html``
+- **n** .csv file in ``csv\keyword.html`` contain google searching results.
 
 ## Table of Contents
 - [Google Search](#google-search)
+  - [Features](#features)
   - [Table of Contents](#table-of-contents)
-  - [Environment](#environment)
+  - [Environments](#environments)
   - [Library (Module) Requirements](#library-module-requirements)
     - [Installation](#installation)
   - [Demo](#demo)
 
-## Environment
+## Environments
 
 Operating System: **Windows**, **MacOS**, **Linux**
 
@@ -48,7 +51,7 @@ def main():
         '2022', 
         '3d', 
         'đồ họa máy tính', 
-        'timpani'
+        'timpani''
         ]
     ...
 ```
