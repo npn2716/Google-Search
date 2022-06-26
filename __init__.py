@@ -53,12 +53,12 @@ def html_processor(htmlFileName: str):
     htmlClass0 = '<div class="Gx5Zad fP1Qef xpd EtOod pkphOe">'
     class0List = fileData.split(htmlClass0)
     for i in range(1, len(class0List)-1):
-        #class="BNeawe vvjwJb AP7Wnd" (Website name) AND MUST RETREIVE FROM INDEX 1:
+        #class="BNeawe vvjwJb AP7Wnd" (Website title) AND MUST RETREIVE FROM INDEX 1:
         class1List = class0List[i].split('<div class="BNeawe vvjwJb AP7Wnd">')
         class1List.pop(0)
         class1 = class1List[0]
         class1 = class1.split('</div>')[0]
-        #class="BNeawe UPmit AP7Wnd" (Website URL):
+        #class="BNeawe UPmit AP7Wnd" (Website Domain):
         class2List = class1List[0].split('<div class="BNeawe UPmit AP7Wnd">')
         class2List.pop(0)
         class2 = class2List[0]
@@ -89,7 +89,8 @@ def main():
         '2022', 
         '3d', 
         'đồ họa máy tính', 
-        'timpani'
+        'timpani',
+        'bbmbj',
         ]
 
     #Do the processing
