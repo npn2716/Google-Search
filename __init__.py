@@ -39,7 +39,7 @@ def search(keyword: str):
 def html_processor(htmlFileName: str):
     #Open and read html file: ---------------------------------------------------------
     fileData = ''
-    with codecs.open(htmlFileName, 'r', 'utf-8') as f: #UTF-8 Encoding
+    with codecs.open(htmlFileName, 'r', 'utf-8') as f:
         fileData = f.read()
         print(htmlFileName + ' was read successfully!')
 
